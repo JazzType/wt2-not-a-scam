@@ -1,5 +1,8 @@
 <?php
-session_start();
+	session_start();
+	if(isset($_SESSION['userid']) && $_SESSION['userid'] == $_POST['email']) {
+		header('Location: index.html');
+	}
 	$server = 'localhost';
 	$dbname = 'nomster';
 	$query = '';
@@ -63,6 +66,7 @@ session_start();
 			echo 'false';
 		}		
 		else {
+			$_SESSION['userid'] = $_POST['email'];
 			echo 'true';
 		}
 	}
