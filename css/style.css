@@ -1,0 +1,76 @@
+body {
+	background-color: #F1F2F1;	
+}
+select {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	height: 25px;	
+	border: lightgreen;
+	font-family: "Source Sans Pro", "Oxygen", "Cantarell", sans-serif;
+	font-size: 16px;
+}
+button {
+	width: 	30px;
+	height: 25px;
+	padding: 1px;
+	text-align: center;
+	background-color: lightgreen;
+	border: lightgray;	
+}
+a {
+	text-decoration: none;	
+}
+#goBtn:hover {
+	background-color: #3cd23c;
+}
+label	{
+	font-family: "Source Sans Pro", "Oxygen", "Cantarell", sans-serif;
+}
+#response {
+	background-color: white;
+	font-family: "Source Sans Pro", sans-serif;
+	width: 650px;	
+	position: relative;
+	padding: 20px -25px 20px 20px;	
+}
+th {
+	background-color: #4caf50;
+	color: white;
+}
+tr:nth-child(odd) {
+	background-color: #f5f5f5;
+}
+table {
+	border-collapse: true;
+	width: 650px;
+}
+#pagediv {
+	overflow-y: auto;	
+	width: 700px;
+	position: absolute;
+	box-shadow: 3px 3px 6px lightgray;
+	top: 30%;
+	left: 25%;	
+	background-color: white;	
+	max-height: 450px; 	
+	padding: 50px;
+}
+
+#goBtn {
+	float: right;
+}
+#header {
+	float: right;
+	font-size: 28px;
+	font-family: "Source Sans Pro", "Oxygen", "Cantarell", sans-serif;	
+	border-bottom: 1px solid black;	
+}
+
+#pageTitle {
+	position: absolute;
+	font-family: "Source Sans Pro", "Oxygen", "Cantarell", sans-serif;
+	top: 15%;
+	left: 42%;
+	font-size: 28px;	
+}
