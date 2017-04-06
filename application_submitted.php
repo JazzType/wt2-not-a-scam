@@ -2,7 +2,7 @@
 	$server = 'localhost';
 	$dbname = 'nomster';
 	$query = '';
-	$conn = new mysqli($server, 'root', '', $dbname);
+	$conn = new mysqli($server, 'root', 'password', $dbname);
 	if($conn -> connect_error) 
 		die('Connection to server failed. Please reload the page.');
 

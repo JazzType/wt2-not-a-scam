@@ -1,22 +1,13 @@
 <?php
-	include_once('template.html');
+	include_once('template.php');
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
+<body>
 	<title>The Team</title>
 	<script type="text/javascript">
 		document.getElementById("team").className = "active"
 	</script>
 	<style type="text/css">
-		body {
-		    font-family: 'Source Sans Pro', sans-serif;
-		    line-height: 1.5;
-		    color: #323232;
-		    font-size: 15px;
-		    font-weight: 400;
-		}
 
 		.heading-title {
 		    margin-bottom: 100px;
@@ -110,8 +101,7 @@
 }
 
 	</style>
-</head>
-<body>
+
 <div class="container">
     <div class="row">
         <div class="heading-title text-center">

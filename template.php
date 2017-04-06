@@ -1,5 +1,5 @@
 <?php
-session_start();
+  session_start();
   $status = "Not logged in";
   $visibility = "none";
   if(isset($_SESSION['userid'])) {
@@ -8,11 +8,39 @@ session_start();
   }
 ?>
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Not-A-Scam.gg</title>
-  </head>
-  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="bootstrap/js/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript"> 
+  </script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    .dropdown-menu {
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    body {
+          background-color: #f2f2f2;
+    }
+    
+  </style>
+</head>
+<body>
+  <!-- NAVBAR -->
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -25,17 +53,17 @@ session_start();
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li class="dropdown">
-            <a href="Games.html" class="dropdown-toggle">Games</a>
+          <li id="home"><a href="index.php">Home</a></li>
+          <li id="games" class="dropdown">
+            <a href="genre.php?genre=All" class="dropdown-toggle">Games</a>
             <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Adventure</a></li>
-            <li><a href="#">RPG</a></li>
+              <li><a href="genre.php?genre=Action">Action</a></li>
+              <li><a href="genre.php?genre=Adventure">Adventure</a></li>
+              <li><a href="genre.php?genre=RPG">RPG</a></li>
             </ul>
           </li>
-          <li><a href="#">Deals</a></li>
-          <li class="dropdown">
+          <li id="Deals"><a href="#">Deals</a></li>
+          <li id="Consoles" class="dropdown">
             <a href="abc.html" class="dropdown-toggle">Consoles</a>
             <ul class="dropdown-menu">
             <li><a href="#">PC</a></li>
@@ -43,7 +71,7 @@ session_start();
             <li><a href="#">XBOX</a></li>
             </ul>
           </li>
-          <li><a href="#">Contact</a></li>
+          <li id="team"><a href="team.php">Team</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="login_page.php"><span class="glyphicon glyphicon-user"></span> <?php echo $status?></a></li>
@@ -53,3 +81,4 @@ session_start();
       </div>
     </div>
   </nav>
+</body>
