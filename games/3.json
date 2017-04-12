@@ -7,5 +7,7 @@
 	"description": "Halo 5: Guardians is a first-person shooter video game developed by 343 Industries and published by Microsoft Studios for the Xbox One home video game console. Part of the Halo series, the game was released on October 27, 2015. Halo 5's plot follows two fireteams of human supersoldiers; when Blue Team, led by Master Chief, goes absent without leave to track down the artificial intelligence construct Cortana, the Master Chief's loyalties are called into question and Spartan Locke along with Fireteam Osiris are sent to retrieve him.",
 	"metascore" : "99",
 	"screenshots" : "screenshots/halo5/1.jpg;screenshots/halo5/2.jpg;screenshots/halo5/3.jpg",
-	"genre":"FPS"
+	"genre" : "Action",
+	"price" : "1000",
+	"img" : "screenshots/halo5/halo.jpg"
 }
