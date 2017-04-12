@@ -62,7 +62,7 @@
               <li><a href="genre.php?genre=RPG">RPG</a></li>
             </ul>
           </li>
-          <li id="Deals"><a href="#">Deals</a></li>
+          <li id="Deals"><a href="localhost:8080/sse.html">Deals</a></li>
           <li id="Consoles" class="dropdown">
             <a href="abc.html" class="dropdown-toggle">Consoles</a>
             <ul class="dropdown-menu">

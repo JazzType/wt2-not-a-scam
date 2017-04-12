@@ -1,7 +1,7 @@
 {
 	"_id" : 2,
 	"title": "Counter-Strike: GO",
-	"header": "headers/csgo.jpg",
+	"header": "header/csgo.jpg",
 	"name": "Counter-Strike: Global Offensive",
 	"platforms": "PC | Mac | PS3 | Xbox",
 	"description": "Counter-Strike: Global Offensive (abbreviated as CS:GO) is a multiplayer first-person shooter video game developed by Hidden Path Entertainment and Valve Corporation. It is the fourth game in the main Counter-Strike franchise. Counter-Strike: Global Offensive was released for Microsoft Windows, OS X, Xbox 360, and PlayStation 3 in August 2012",

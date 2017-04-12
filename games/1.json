@@ -1,7 +1,7 @@
 {
 	"_id" : 1,
 	"title": "DOTA 2",
-	"header": "headers/dota2.jpg",
+	"header": "header/dota2.jpg",
 	"name": "Dota 2",
 	"platforms": "PC | Mac",
 	"description": "Dota 2 is a free-to-play multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is the stand-alone sequel to Defense of the Ancients (DotA), which was a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos and its expansion pack, The Frozen Throne. Dota 2 is played in matches between two teams that consist of five players, with both teams occupying their own separate base on the map. ",
