@@ -16,8 +16,7 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <script src="bootstrap/js/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script type="text/javascript"> 
-  </script>
+  <script type="text/javascript" src="suggest.js"></script>
   <style>
     /* Remove the navbar's default rounded borders and increase the bottom margin */ 
     .navbar {
@@ -36,6 +35,7 @@
     body {
           background-color: #f2f2f2;
     }
+
     
   </style>
 </head>
@@ -77,6 +77,20 @@
           <li><a href="login_page.php"><span class="glyphicon glyphicon-user"></span> <?php echo $status?></a></li>
           <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
           <li style="display: <?php echo $visibility;?>;"><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        </ul>
+        <ul>
+        <li>
+          <div class="col-sm-3 col-md-3">          	
+          	<div class="input-group">
+              	<input type="text" class="form-control" placeholder="Search" name="q" id="search" list="datalist-search" onkeyup="fetchgame()">
+              	<datalist id="datalist-search">                 
+                </datalist>
+                <div id="gameid" style="display: none;">-1</div>
+              	<div class="input-group-btn">
+              	    <button class="btn btn-default" onclick="navigateToApp()"><i class="glyphicon glyphicon-search"></i></button>
+             	 	</div>
+          	</div>          	
+      	 </div>
         </ul>
       </div>
     </div>
