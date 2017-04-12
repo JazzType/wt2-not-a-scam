@@ -82,11 +82,10 @@
         <li>
           <div class="col-sm-3 col-md-3">          	
           	<div class="input-group">
-              	<input type="text" class="form-control" placeholder="Search" name="q" id="search" list="datalist-search" onkeyup="fetchgame()">
+              	<input type="text" class="form-control" placeholder="Search" name="q" id="search" list="datalist-search" onkeyup="fetchgame()" size="5">
               	<datalist id="datalist-search">                 
                 </datalist>
-                <div id="gameid" style="display: none;">-1</div>
-              	<div class="input-group-btn">
+                <div class="input-group-btn">
               	    <button class="btn btn-default" onclick="navigateToApp()"><i class="glyphicon glyphicon-search"></i></button>
              	 	</div>
           	</div>          	
