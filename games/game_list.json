@@ -1,0 +1,24 @@
+{
+	"games": [
+		{
+			"title": "Counter-Strike: Global Offensive",
+			"id": 2
+		},
+		{
+			"title": "Dota 2",
+			"id": 1
+		},
+		{
+			"title": "Dota 3",
+			"id": 1
+		},
+		{
+			"title": "Dota 4",
+			"id": 1
+		},
+		{
+			"title": "Halo 5",
+			"id": 3
+		}
+	]
+}
